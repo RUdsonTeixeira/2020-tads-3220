@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    color: #eee8e8;
+    background-color:  #383636;
+}
+h1{
+    color: #a31e22;
+    font-size: 35px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #a31e22;
+}
+.subtitulo{
+    text-decoration: underline;
+    color: #a31e22;
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 50px;
+}
