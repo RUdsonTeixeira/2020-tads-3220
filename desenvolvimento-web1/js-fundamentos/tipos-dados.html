@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Dados</title>
+</head>
+<body>
+    <script>
+        // string
+       
+        // template String
+           
+        /* let template = `
+            <h1>${nome}</h1>
+            <h2>${sobrenome}</h2>
+            <img src="${imgPerfil}"/>
+        `*/
+        //document.write(template)
+
+        // Number
+
+        let numero = 10.50
+
+        // Boolean 
+
+        let b = false
+
+        // Null e undefined
+
+        let a = null
+        let c
+        
+        // vetores
+
+        let vetor = [1,20,50]
+        console.log(vetor)
+
+        // Objeto
+        let nome = "Caio "
+        let sobrenome = 'Pinheiro'
+        let imgPerfil = "https://avatars.githubusercontent.com/u/6271023?s=460&u=5949878d12a328ebd4d551323c478b9cef078ca2&v=4"
+       
+        let pessoa = {
+            nome:"Caio",
+            sobrenome:"Pinheiro",
+            imgPerfil:"https://avatars.githubusercontent.com/u/6271023?s=460&u=5949878d12a328ebd4d551323c478b9cef078ca2&v=4"
+        }
+        let pessoa2 = {
+            nome:"João",
+            sobrenome:"Souza",
+        }
+
+        let listaPessoas= [pessoa,pessoa2]
+
+        let carro = {
+            modelo:"Ford Ka Sedan",
+            ano:"2017",
+            marca:"ford",
+            velociodade:0,
+
+            acelerar(){
+                this.velociodade+=20
+            }
+        }
+        
+        
+        console.log(carro.marca)
+    </script>
+</body>
+</html>
