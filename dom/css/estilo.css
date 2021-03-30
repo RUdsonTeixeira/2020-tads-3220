@@ -1,0 +1,18 @@
+header{
+    width: 100%;
+    height: 60px;
+    background: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a:any-link{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.primeiro{
+    color: orange;
+    background-color: brown;
+}
