@@ -1,5 +1,5 @@
 let header = document.querySelector("header") // selecionando um único elemento
-header.style.backgroundColor="purple" // alterando o estilo do elemento selecionado
+header.style.backgroundColor="gray" // alterando o estilo do elemento selecionado
 
 let links = document.querySelectorAll("a") // selecionando vários elementos - retorna uma NodeList
 let link2 = links[1] // acessando o 2 elemento da lista
