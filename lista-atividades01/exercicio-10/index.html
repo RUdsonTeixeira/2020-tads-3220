@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Exercícios 01</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
 </head>
 <body>
+    <main class="container">
     <h1>Exercício 10 - Controle de Despesas</h1>
+    <form class="card">
+       <section class="card-body">
+        <div>
+            <label class="form-label">Descrição</label>
+            <input  class="form-control" type="text" name="descricao">
+        </div>
+        <div>
+            <label class="form-label">Valor</label>
+            <input class="form-control" type="number" name="valor">
+        </div>
+        <div class="m-2">
+            <button class="btn btn-primary" type="button">Adicionar</button>
+        </div>
+    </section>
+    </form>
+    <section>
+        <ul class="listaDespesas">
+            
+        </ul>
+    </section>
+</main>
     <script src="app.js"></script>
+    <script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
