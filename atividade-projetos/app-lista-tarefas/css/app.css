@@ -3,7 +3,7 @@ ul.tasks-list{
     margin: 0;
     padding: 0;
 }
-li.task{
+ul.tasks-list div.task{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,4 +11,10 @@ li.task{
     border: solid 1px rgb(216, 214, 214);
     border-radius: 5px;
     margin-bottom: 4px;
+}
+div.task li.task-title{
+    flex: 2;
+}
+div.task button{
+    margin: 2px;
 }
