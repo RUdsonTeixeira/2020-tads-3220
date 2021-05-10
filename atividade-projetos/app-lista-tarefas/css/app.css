@@ -18,3 +18,7 @@ div.task li.task-title{
 div.task button{
     margin: 2px;
 }
+
+i{
+    pointer-events: none;
+}
